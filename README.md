@@ -17,7 +17,7 @@ It helps stakeholders understand:
 
 ## 🖼 Dashboard Preview
 
-![Online Learning Dashboard](dashboard.png)
+![image](ONLINE LEARNING.png)
 
 ---
 
