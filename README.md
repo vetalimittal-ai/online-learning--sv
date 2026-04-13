@@ -15,13 +15,9 @@ It helps stakeholders understand:
 
 ---
 
-## 🖼 Dashboard Preview
+## 🖼 Dashboard Preview 
+![ONLINE LEARNING Dashboard](dashboard.png)
 
-ONLINE LEARNING.png
-
-![image](ONLINE LEARNING.png)
-
----
 
 # 📈 Key Performance Indicators (KPIs)
 
