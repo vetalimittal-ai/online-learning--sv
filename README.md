@@ -17,6 +17,8 @@ It helps stakeholders understand:
 
 ## 🖼 Dashboard Preview
 
+ONLINE LEARNING.png
+
 ![image](ONLINE LEARNING.png)
 
 ---
