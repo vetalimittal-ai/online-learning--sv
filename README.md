@@ -1,146 +1,224 @@
-🎓 Online Learning Dashboard (Power BI)
-📌 Project Overview
+# 📊 Online Learning Analytics Dashboard (Power BI)
 
-This project presents an interactive Power BI dashboard analyzing an online learning platform.
-The dashboard provides insights into student engagement, course progress, quiz performance, and dropout risk.
+---
+
+## 📌 Project Overview
+This project presents an *interactive Power BI dashboard* analyzing online learning behavior and student engagement.  
+The dashboard provides insights into *student activity, course categories, engagement levels, performance metrics, and dropout risk*.
 
 It helps stakeholders understand:
+- Student participation trends  
+- Course category distribution  
+- Learning engagement patterns  
+- Performance and quiz outcomes  
+- Dropout risk across categories  
 
-Student engagement patterns
-Course category performance
-Learning behavior trends
-Dropout risk analysis
-Overall platform effectiveness
-🖼 Dashboard Preview
+---
 
-📈 Key Performance Indicators (KPIs)
-KPI	Value	Description
-Total Students	2800	Total number of students
-Device Usage Count	2800	Total devices used
-Max Forum Interactions	49	Highest student interaction
-Avg Video Watch %	60.26	Average video completion rate
-📚 Course Category Analysis
+## 🖼 Dashboard Preview
 
-This section shows the distribution of course progress across different categories.
+![Online Learning Dashboard](dashboard.png)
 
-Categories Covered
-Category
-Design
-AI & ML
-Data Science
-Programming
-Business
-Insights
-Balanced distribution across categories
-Programming and Data Science show strong participation
-Indicates diverse learner interests
-📊 Student Engagement Analysis
+---
 
-This section evaluates how students interact with the platform.
+# 📈 Key Performance Indicators (KPIs)
 
-Metrics Included
-Login frequency per week
-Student activity levels
-Insights
-Positive correlation between login frequency and engagement
-Active users tend to perform better
-Helps identify consistent learners
-🎥 Video Consumption Behavior
+| KPI | Value | Description |
+|----|----|----|
+| *Total Students* | *2800* | Total number of learners in the dataset |
+| *Device Type Count* | *2800* | Total tracked device usage |
+| *Max Forum Interactions* | *47* | Highest engagement in discussion forums |
+| *Avg Video Watch %* | *60.26%* | Average content consumption rate |
 
-This visualization shows video watch percentage based on session duration.
+---
 
-Insights
-Moderate watch percentage across sessions
-Longer sessions do not always ensure full completion
-Suggests need for engaging content strategies
-📉 Dropout Risk Analysis
+# 📚 Course Category Distribution
 
-This section analyzes dropout trends across course categories.
+This visualization shows how students are distributed across different course categories.
 
-Insights
-Dropout risk varies by category
-Some courses show higher dropout levels
-Useful for improving course structure and retention
-📝 Quiz Performance Metrics
+| Course Category | Count | Percentage |
+|----------------|------|------------|
+| Design | 581 | 20.75% |
+| AI & ML | 567 | 20.25% |
+| Data Science | 567 | 20.25% |
+| Programming | 557 | 19.89% |
+| Business | 528 | 18.86% |
 
-This includes average quiz scores of students.
+### Key Insights
 
-Insights
-Helps measure learning outcomes
-Can be used to compare performance across categories
-Indicates effectiveness of course content
-🎛 Dashboard Filters
+* Course distribution is *well-balanced across categories*  
+* *Design courses have the highest participation*  
+* Business courses show *slightly lower enrollment*  
 
-Users can interact with the dashboard using:
+---
 
-Course Category Filter
-Select specific categories
-Student-Based Filters
-Analyze individual or grouped behavior
-📊 Features of the Dashboard
-Interactive Power BI visuals
-Student engagement tracking
-Course-wise performance analysis
-Video consumption insights
-Dropout risk visualization
-Clean and intuitive interface
-🧠 Business Insights
-1️⃣ Student Engagement
+# 🎥 Video Engagement Analysis
 
-Regular platform usage improves learning outcomes.
+This chart represents video watch percentage based on session duration.
 
-2️⃣ Course Effectiveness
+| Session Duration | Engagement Level |
+|-----------------|-----------------|
+| 0 – 50 mins | Moderate |
+| 50 – 120 mins | Stable |
+| 120+ mins | Slightly higher |
 
-Different categories perform differently, requiring tailored strategies.
+### Insights
 
-3️⃣ Learning Behavior
+* Engagement remains *consistent across different session lengths*  
+* Longer sessions slightly *increase content consumption*  
+* Indicates *steady learning behavior* among users  
 
-Video consumption patterns highlight engagement gaps.
+---
 
-4️⃣ Dropout Prevention
+# 📈 Student Activity vs Login Frequency
 
-Identifying high-risk categories helps improve retention.
+This scatter plot shows the relationship between number of students and login frequency.
 
-5️⃣ Performance Tracking
+| Observation | Insight |
+|------------|--------|
+| Positive Correlation | More students → more logins |
+| High Activity | Active users log in frequently |
 
-Quiz scores help evaluate course success and student understanding.
+### Insights
 
-🛠 Tools & Technologies
-Tool	Purpose
-Power BI	Data visualization
-Dataset	Student learning data
-DAX	Measures & calculations
-GitHub	Project hosting
-📂 Project Structure
+* Strong indication of *active platform usage*  
+* Frequent logins suggest *high learner engagement*  
 
-Online-Learning-Dashboard
-│
-├── Dataset
-│ └── online_learning_data.csv
-│
-├── PowerBI
-│ └── dashboard.pbix
-│
-├── Images
-│ └── dashboard.png
-│
-└── README.md
+---
 
-🚀 How to Use
-Download the .pbix file
-Open in Power BI Desktop
-Use filters to explore:
-Student engagement
-Course categories
-Video watch trends
-Dropout risk
-Analyze insights interactively
-📌 Future Improvements
-Add time-series analysis of student activity
-Include demographic-based insights
-Add predictive models for dropout risk
-Integrate real-time data updates
-👩‍💻 Author
+# 📊 Performance & Dropout Risk Analysis
 
-Vetali Mittal
-Economics Honours Student | Data Enthusiast | Power BI Learner
+This section combines:
+- Student count  
+- Average quiz scores  
+- Dropout risk  
+
+| Metric | Value |
+|------|------|
+| Student Count | 2800 |
+| Avg Quiz Score | ~70 |
+| Dropout Risk | Medium |
+
+### Insights
+
+* Students show *moderate academic performance*  
+* Dropout risk is *present but manageable*  
+* Indicates need for *performance improvement strategies*  
+
+---
+
+# ⚠️ Dropout Risk by Course Category
+
+This chart highlights how dropout risk varies across categories.
+
+| Course Category | Dropout Trend |
+|----------------|--------------|
+| Design | High |
+| AI & ML | Slightly lower |
+| Data Science | Stable |
+| Programming | Moderate |
+| Business | Lowest |
+
+### Insights
+
+* *Design courses have the highest dropout risk*  
+* Business courses show *better retention rates*  
+* Indicates need for *targeted intervention in specific courses*  
+
+---
+
+# 🎛 Dashboard Filters
+
+Users can interact with the dashboard using the following filters:
+
+### Course Category Filter
+- Design  
+- AI & ML  
+- Data Science  
+- Programming  
+- Business  
+
+---
+
+# 📊 Features of the Dashboard
+
+* Interactive Power BI visuals  
+* Course category analysis  
+* Engagement tracking (video & sessions)  
+* Student activity monitoring  
+* Performance & dropout analysis  
+* Dynamic filtering for better insights  
+
+---
+
+# 🧠 Business Insights
+
+### 1️⃣ Student Engagement
+Students show *consistent engagement*, with stable video watch patterns.
+
+### 2️⃣ Course Popularity
+Course distribution is *balanced*, with Design leading slightly.
+
+### 3️⃣ Platform Activity
+Login frequency indicates *high user activity and retention*.
+
+### 4️⃣ Performance Analysis
+Average quiz scores suggest *moderate academic outcomes*.
+
+### 5️⃣ Dropout Risk
+Certain categories (especially Design) need *focused retention strategies*.
+
+---
+
+# 🛠 Tools & Technologies
+
+| Tool | Purpose |
+|----|----|
+| *Power BI* | Data visualization |
+| *Dataset* | Learning analytics data |
+| *DAX* | Measures & calculations |
+| *GitHub* | Project hosting |
+
+---
+
+# 📂 Project Structure
+
+Online-Learning-Dashboard  
+│  
+├── Dataset  
+│   └── online_learning_data.csv  
+│  
+├── PowerBI  
+│   └── dashboard.pbix  
+│  
+├── Images  
+│   └── dashboard.png  
+│  
+└── README.md  
+
+---
+
+# 🚀 How to Use
+
+1. Download the *.pbix file*  
+2. Open it in *Power BI Desktop*  
+3. Use filters to explore course categories  
+4. Analyze engagement, performance, and dropout trends  
+
+---
+
+# 📌 Future Improvements
+
+* Add *time-based learning trends*  
+* Include *predictive dropout analysis*  
+* Add *student segmentation*  
+* Integrate *AI-driven insights*  
+
+---
+
+# 👩‍💻 Author
+
+*Vetali Mittal*  
+Economics Honours Student | Data Enthusiast | Power BI Learner  
+
+---
